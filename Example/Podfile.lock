@@ -16,10 +16,9 @@ PODS:
     - AFNetworking/NSURLSession
   - FFAPIsKit (1.0.1):
     - FFToolsKit
-  - FFAuthorKit (1.0.0):
+  - FFAuthorKit (1.0.1):
     - FFAPIsKit
-    - FFAuthorKit/Detail (= 1.0.0)
-    - FFAuthorKit/Mainpage (= 1.0.0)
+    - FFAuthorKit/Detail (= 1.0.1)
     - FFCategoryKit
     - FFConfigsKit
     - FFMainViewKit
@@ -28,17 +27,7 @@ PODS:
     - Masonry
     - ReactiveCocoa (~> 2.5)
     - YYWebImage
-  - FFAuthorKit/Detail (1.0.0):
-    - FFAPIsKit
-    - FFCategoryKit
-    - FFConfigsKit
-    - FFMainViewKit
-    - FFReformerKeysKit
-    - FFToolsKit
-    - Masonry
-    - ReactiveCocoa (~> 2.5)
-    - YYWebImage
-  - FFAuthorKit/Mainpage (1.0.0):
+  - FFAuthorKit/Detail (1.0.1):
     - FFAPIsKit
     - FFCategoryKit
     - FFConfigsKit
@@ -104,7 +93,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   FFAPIsKit: 976d8680ff2a47dc46cd9624675233b018c4ca03
-  FFAuthorKit: e4bb7fbfdc1e1f5af49ec58ccd4fabf4fc4290a2
+  FFAuthorKit: e1d9c72bc51a74ec1a47a31c9cb13e609c222b02
   FFCategoryKit: ac52228bee1512ae34ec79c4c5366c7813cac770
   FFConfigsKit: b8d7e09359ed5c69537172ad87c48537ff241754
   FFMainViewKit: 087d70508a7b0b612dfcc8e58a7a3a692fc03d74
