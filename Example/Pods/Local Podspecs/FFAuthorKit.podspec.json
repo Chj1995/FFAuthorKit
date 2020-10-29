@@ -1,6 +1,6 @@
 {
   "name": "FFAuthorKit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "summary": "A short description of FFAuthorKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Chj1995/FFAuthorKit",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/Chj1995/FFAuthorKit.git",
-    "tag": "1.0.4"
+    "tag": "1.0.5"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FFAuthorKit/Classes/Temp/*.{h,m}",
+  "source_files": "FFAuthorKit/Classes/Header.h",
   "dependencies": {
     "Masonry": [
 
@@ -49,6 +49,10 @@
     ]
   },
   "subspecs": [
+    {
+      "name": "Temp",
+      "source_files": "FFAuthorKit/Classes/Temp/*.{h,m}"
+    },
     {
       "name": "Detail",
       "source_files": "FFAuthorKit/Classes/Detail/*.{h,m}"
