@@ -61,7 +61,6 @@
 		243DAD49D3587E604DFBF7533FA58039 /* UIAlertView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 5661843386F0192C5E1DAE6C8AFF5635 /* UIAlertView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		275CC661B8AC7FECCCCDAE4EE6B249E0 /* RACQueueScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 56209030CC908294EDBE3DB7A5E21118 /* RACQueueScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		298962A1F7AA84620098B740C9AB62CF /* FFAuthorListReformerKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF5323F3EB58178CDAE1097FDA02AE8 /* FFAuthorListReformerKeys.m */; };
-		29ED7DDBB31DBBA1943D3C07C6F7C935 /* Target_Author.h in Headers */ = {isa = PBXBuildFile; fileRef = 912FEEEC8E33E0FE872F44D9476622AA /* Target_Author.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A24B2B78A0EF067F730E95250B6B8ED /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E1FA79BA5312B71601B3D1DF76451356 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B0DF4F560BE0D23AE9D823D6A7D357A /* MKAnnotationView+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B087A2CFDE81C7E6F637A206C43825D /* MKAnnotationView+RACSignalSupport.m */; };
 		2B31D35271C880F159984ED5762A48CE /* FFCategoryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238B35EF39979AE388364AD507BD85B8 /* FFCategoryKit.framework */; };
@@ -177,6 +176,7 @@
 		6B071BB4A7311BF2D4B0E761BB703901 /* CALayer+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AB3F64F8E321DB5ED68F220A052B4A /* CALayer+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B86E6A1847E59DAE293CF47E404A270 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A78E0E58FC30629E49FE7B3C87DAA2 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C35BAC74F81CFFD7E663F9EC478BAB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442EFAD7600044FEAB5A33D7824D1CFF /* Foundation.framework */; };
+		6CBE56FFBB4F8CEE5E7C24055A3A1B24 /* Target_Author.h in Headers */ = {isa = PBXBuildFile; fileRef = 912FEEEC8E33E0FE872F44D9476622AA /* Target_Author.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6D2B7CF52812D48280DE802E79BECC7A /* RACReplaySubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4168296C9C8D95A3A4A5386F51D64195 /* RACReplaySubject.m */; };
 		6DF1568ECBB7D0B8B2651C91B59C217F /* UICollectionReusableView+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 728B64E291F23CD366F7A04B9D740E94 /* UICollectionReusableView+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E9998D082A834C57CEE9110BDF83509 /* UIControl+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A6DF31FE8265169F48893B04ED67F /* UIControl+RACSignalSupport.m */; };
@@ -2472,7 +2472,7 @@
 				F4E5D02B47F295BBF58F2F9C2E3E46A1 /* FFAuthorKit-umbrella.h in Headers */,
 				DC844A7122967783A409DAA3E37E8F16 /* FFAuthorKit.h in Headers */,
 				85DDB5473B53F3AF8C1DBC89683F1803 /* FFAuthorListReformer.h in Headers */,
-				29ED7DDBB31DBBA1943D3C07C6F7C935 /* Target_Author.h in Headers */,
+				6CBE56FFBB4F8CEE5E7C24055A3A1B24 /* Target_Author.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
