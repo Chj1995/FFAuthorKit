@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFAuthorKit'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of FFAuthorKit.'
 
 # This description is used to generate tags and improve search results.
@@ -41,9 +41,8 @@ TODO: Add long description of the pod here.
       ss.source_files = 'FFAuthorKit/Classes/Mainpage/*.{h,m}'
       ss.dependency 'FFAuthorKit/Temp'
   end
-  #s.subspec 'Mainpage' do |ss|
-      #ss.source_files = 'FFAuthorKit/Classes/Mainpage/*.{h,m}'
-  #end
+  s.source_files = 'FFAuthorKit/Classes/Temp/FFAuthorKit.h'
+
   # s.resource_bundles = {
   #   'FFAuthorKit' => ['FFAuthorKit/Assets/*.png']
   # }
