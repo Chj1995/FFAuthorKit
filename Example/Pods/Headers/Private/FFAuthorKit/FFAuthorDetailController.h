@@ -1,0 +1,1 @@
+../../../../../FFAuthorKit/Classes/Detail/FFAuthorDetailController.h
