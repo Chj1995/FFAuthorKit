@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "FFAuthorKit.h"
+#import "Head.h"
 #import "FFAuthorDetailController.h"
 #import "AuthorAPIRequest.h"
 #import "FFAuthorCell.h"
