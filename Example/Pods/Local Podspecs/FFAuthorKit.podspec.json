@@ -18,7 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FFAuthorKit/Classes/**/*",
   "dependencies": {
     "Masonry": [
 
@@ -50,8 +49,21 @@
   },
   "subspecs": [
     {
+      "name": "Temp",
+      "source_files": "FFAuthorKit/Classes/Temp/*.{h,m}"
+    },
+    {
       "name": "Detail",
       "source_files": "FFAuthorKit/Classes/Detail/*.{h,m}"
+    },
+    {
+      "name": "Mainpage",
+      "source_files": "FFAuthorKit/Classes/Mainpage/*.{h,m}",
+      "dependencies": {
+        "FFAuthorKit/Temp": [
+
+        ]
+      }
     }
   ]
 }
