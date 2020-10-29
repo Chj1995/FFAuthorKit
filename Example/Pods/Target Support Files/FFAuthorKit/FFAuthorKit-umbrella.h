@@ -15,6 +15,7 @@
 #import "AuthorAPIRequest.h"
 #import "FFAuthorCell.h"
 #import "FFAuthorController.h"
+#import "FFAuthorKit.h"
 #import "FFAuthorListReformer.h"
 
 FOUNDATION_EXPORT double FFAuthorKitVersionNumber;
