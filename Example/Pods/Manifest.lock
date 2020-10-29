@@ -1,0 +1,123 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FFAPIsKit (1.0.1):
+    - FFToolsKit
+  - FFAuthorKit (1.0.0):
+    - FFAPIsKit
+    - FFAuthorKit/Detail (= 1.0.0)
+    - FFAuthorKit/Mainpage (= 1.0.0)
+    - FFCategoryKit
+    - FFConfigsKit
+    - FFMainViewKit
+    - FFReformerKeysKit
+    - FFToolsKit
+    - Masonry
+    - ReactiveCocoa (~> 2.5)
+    - YYWebImage
+  - FFAuthorKit/Detail (1.0.0):
+    - FFAPIsKit
+    - FFCategoryKit
+    - FFConfigsKit
+    - FFMainViewKit
+    - FFReformerKeysKit
+    - FFToolsKit
+    - Masonry
+    - ReactiveCocoa (~> 2.5)
+    - YYWebImage
+  - FFAuthorKit/Mainpage (1.0.0):
+    - FFAPIsKit
+    - FFCategoryKit
+    - FFConfigsKit
+    - FFMainViewKit
+    - FFReformerKeysKit
+    - FFToolsKit
+    - Masonry
+    - ReactiveCocoa (~> 2.5)
+    - YYWebImage
+  - FFCategoryKit (1.0)
+  - FFConfigsKit (1.0.0)
+  - FFMainViewKit (1.0.0)
+  - FFReformerKeysKit (1.0.0)
+  - FFToolsKit (1.0):
+    - AFNetworking (~> 3.1.0)
+    - FMDB (~> 2.7.2)
+    - MBProgressHUD (~> 1.0.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.0.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - FFAuthorKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/Chj1995/FFSpecs.git:
+    - FFAPIsKit
+    - FFCategoryKit
+    - FFConfigsKit
+    - FFMainViewKit
+    - FFReformerKeysKit
+    - FFToolsKit
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - AFNetworking
+    - FMDB
+    - Masonry
+    - MBProgressHUD
+    - ReactiveCocoa
+    - YYCache
+    - YYImage
+    - YYWebImage
+
+EXTERNAL SOURCES:
+  FFAuthorKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FFAPIsKit: 976d8680ff2a47dc46cd9624675233b018c4ca03
+  FFAuthorKit: e4bb7fbfdc1e1f5af49ec58ccd4fabf4fc4290a2
+  FFCategoryKit: ac52228bee1512ae34ec79c4c5366c7813cac770
+  FFConfigsKit: b8d7e09359ed5c69537172ad87c48537ff241754
+  FFMainViewKit: 087d70508a7b0b612dfcc8e58a7a3a692fc03d74
+  FFReformerKeysKit: ec357e389fcd1e17044bd9398017b131cec9325f
+  FFToolsKit: 2a616aeaeea70827e722bd92b7bd52b40ab0ab3d
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 57cd9acfec40b4fa8c69ed64779b8361c5dd95ca
+
+COCOAPODS: 1.9.3
